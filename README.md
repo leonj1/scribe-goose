@@ -260,14 +260,36 @@ npm test
 
 ## Deployment
 
+### Railway Deployment (Recommended)
+
+The easiest way to deploy this application is using Railway.app. We provide a complete Railway deployment guide:
+
+📖 **[Railway Deployment Guide](RAILWAY_DEPLOYMENT.md)** - Complete step-by-step instructions
+
+#### Quick Railway Deployment:
+
+1. Create account at [Railway.app](https://railway.app)
+2. Connect GitHub repository: `leonj1/scribe-goose`
+3. Add MySQL database service
+4. Create backend and frontend services
+5. Configure environment variables
+6. Deploy automatically with Git push
+
+**Benefits**:
+- ✅ One-click MySQL database
+- ✅ Automatic SSL/TLS certificates
+- ✅ Auto-scaling and monitoring
+- ✅ CI/CD with GitHub integration
+- ✅ Free tier available
+
 ### Production Considerations
 
 1. **Environment Variables**: Use secure secret management
-2. **HTTPS**: Configure SSL/TLS certificates
+2. **HTTPS**: Configure SSL/TLS certificates (automatic with Railway)
 3. **Database**: Use managed MySQL service with backups
 4. **Storage**: Use encrypted cloud storage (S3, etc.)
 5. **Monitoring**: Set up application monitoring and logging
-6. **Scaling**: Use container orchestration (Kubernetes)
+6. **Scaling**: Use container orchestration or Railway's auto-scaling
 
 ### Docker Production Build
 
@@ -278,6 +300,14 @@ docker build -t audio-transcription-backend:latest ./backend
 # Frontend
 docker build -t audio-transcription-frontend:latest ./frontend
 ```
+
+### Alternative Deployment Options
+
+- **Railway** (Recommended) - See [RAILWAY_DEPLOYMENT.md](RAILWAY_DEPLOYMENT.md)
+- **AWS** - Use ECS/Fargate for containers, RDS for MySQL
+- **Google Cloud** - Use Cloud Run for containers, Cloud SQL for MySQL
+- **Azure** - Use Container Instances, Azure Database for MySQL
+- **DigitalOcean** - Use App Platform or Kubernetes
 
 ## Troubleshooting
 
