@@ -1,0 +1,14 @@
+.waveform-visualizer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background: #f0f2f5;
+  border-radius: 8px;
+}
+
+.waveform-canvas {
+  max-width: 100%;
+  height: auto;
+}

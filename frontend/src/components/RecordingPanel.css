@@ -1,0 +1,50 @@
+.recording-panel {
+  padding: 24px;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recording-panel-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 16px;
+}
+
+.recording-controls {
+  width: 100%;
+}
+
+.recording-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.transcription-card {
+  flex: 1;
+}
+
+.transcription-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.transcription-header h4 {
+  margin: 0;
+}
+
+.transcription-text {
+  white-space: pre-wrap;
+  line-height: 1.8;
+  font-size: 16px;
+}

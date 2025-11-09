@@ -1,0 +1,277 @@
+# ===================================
+# Environment Variables
+# ===================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ===================================
+# Backend (Python/FastAPI)
+# ===================================
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/*$py.class
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+backend/venv/
+backend/env/
+backend/.venv
+
+# Python distribution / packaging
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing and coverage
+backend/.pytest_cache/
+backend/.coverage
+backend/coverage.xml
+backend/htmlcov/
+backend/.tox/
+backend/.hypothesis/
+backend/nosetests.xml
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Python linting
+backend/.mypy_cache/
+backend/.pytype/
+backend/.pyre/
+backend/.dmypy.json
+backend/dmypy.json
+
+# Python profiling
+backend/*.prof
+
+# Celery
+backend/celerybeat-schedule
+backend/celerybeat.pid
+
+# ===================================
+# Frontend (React/Node)
+# ===================================
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Production build
+frontend/build/
+frontend/dist/
+frontend/.cache/
+build/
+dist/
+
+# Testing
+frontend/coverage/
+
+# React specific
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Parcel cache
+frontend/.parcel-cache/
+
+# Next.js (if used in future)
+frontend/.next/
+frontend/out/
+
+# Nuxt.js (if used in future)
+frontend/.nuxt/
+frontend/dist/
+
+# Gatsby files (if used in future)
+frontend/.cache/
+frontend/public/
+
+# Webpack
+frontend/.webpack/
+
+# Rollup
+frontend/.rollup.cache/
+
+# ESLint
+frontend/.eslintcache
+
+# Misc
+frontend/.DS_Store
+frontend/.env
+frontend/.env.*
+
+# ===================================
+# Build Outputs (General)
+# ===================================
+*.egg-info/
+.eggs/
+
+# ===================================
+# IDEs and Editors
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.tmproj
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===================================
+# OS Specific
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===================================
+# Application Specific
+# ===================================
+# Audio storage
+audio_storage/
+backend/audio_storage/
+frontend/audio_storage/
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.aac
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Docker volumes
+mysql_data/
+postgres_data/
+
+# ===================================
+# Logs
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+backend/logs/
+frontend/logs/
+
+# ===================================
+# Temporary Files
+# ===================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*~
+.cache/
+tmp/
+temp/
+
+# ===================================
+# Security
+# ===================================
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+secrets.json
+.secrets/
+
+# ===================================
+# Documentation Build
+# ===================================
+docs/_build/
+site/
+.docusaurus/
